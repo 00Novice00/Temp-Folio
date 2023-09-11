@@ -1,0 +1,79 @@
+.fromcontainer{
+    padding: 3em;
+    max-width: 70rem;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels{
+    font-size: 1.4rem;
+}
+
+.inputarea{
+    margin-bottom: 3em;
+    padding: 10px 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.messagearea{
+    margin-bottom: 1em;
+    padding: 10px 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 6em;
+
+}
+
+.submitbutton{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding:.6em 1.6em ;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+    background: #7843e9;
+    margin:2em 5em 1em  5em ;
+}
+
+.submitbutton:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 600px){
+    .fromcontainer{
+        width: 100%;
+        padding: 2em 1.5em 2em 1.5em;
+    }
+
+    .labels{
+        font-size: 1.7rem;
+    }
+    
+    .inputarea{
+        margin-bottom: 3em;
+        width: 100%;
+        padding: 10px 5px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    
+    .messagearea{
+        margin-bottom: 1em;
+        padding: 10px 5px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 6em;
+    
+    }
+}

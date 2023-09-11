@@ -1,0 +1,192 @@
+.container{
+    max-width: 1000px;
+    width: 90%;
+}
+
+.homesection{
+    background: url('../Images/Folio-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.myinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90rem;
+    width: 90%;
+}
+
+.myname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+}
+
+.red{
+    color: red;
+}
+
+.myinfo p{
+    font-size: 1.6rem;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.probutton{
+    padding:.6em .6em;
+    color: black;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+    background: #7843e9;
+    margin: 2em 3em 3.5em 0 ;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.probutton:hover{
+    transform: translateY(-5px);
+}
+
+.gobackbutton{
+    padding:.6em .6em;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+    background: #525252;
+    margin: 2em 3em 3.5em 0 ;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+}
+
+.gobackbutton:hover{
+    transform: translateY(-5px);
+}
+
+.projectinfo{
+    background-color: #949494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    margin: 4em auto ;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.projectimg{
+    width: 90%;
+}
+
+.projsections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.projdivsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.projsubheading{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.projinfo1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 30px; ;
+    color:black;
+    margin-bottom: 1.5em;
+}
+
+.projinfo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 30px; ;
+    color: black;
+    margin-bottom: 3.5em;
+}
+
+.projinfo span{
+    color:black;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singleskill{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: black;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.singleskill:hover{
+    background: #7843e9;
+    color: black;
+    transform: translateY(-5px);
+}
+
+
+
+
+@media (max-width: 600px){
+    .container{
+        width: 95%;
+    }
+
+    .homesection{
+        height: 89vh;
+        font-size: 1.8rem;
+    }
+
+    .myinfo{
+        top: 50%;
+    }
+
+    .myname{
+        font-size: 4.3rem;
+        font-weight: 700;
+    }
+}
