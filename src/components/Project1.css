@@ -3,7 +3,7 @@
     width: 90%;
 }
 
-.homesection{
+.heading-proj{
     background: url('../Images/Folio-background.png');
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@
 }
 
 
-.myinfo{
+.projectoverview-proj{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
     width: 90%;
 }
 
-.myname{
+.projprojectname-proj{
     font-family: 'Roboto', sans-serif;
     font-size: 5.5rem;
     font-weight: 900;
@@ -39,7 +39,7 @@
     color: red;
 }
 
-.myinfo p{
+.projectoverview-proj p{
     font-size: 1.6rem;
 }
 
@@ -50,7 +50,7 @@
 }
 
 
-.probutton{
+.rojectlinkbutton-proj{
     padding:.6em .6em;
     color: black;
     border-radius: 5px;
@@ -61,11 +61,11 @@
     font-weight: 500;
 }
 
-.probutton:hover{
+.rojectlinkbutton-proj:hover{
     transform: translateY(-5px);
 }
 
-.gobackbutton{
+.gobackbutton-proj{
     padding:.6em .6em;
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -77,18 +77,18 @@
 
 }
 
-.gobackbutton:hover{
+.gobackbutton-proj:hover{
     transform: translateY(-5px);
 }
 
-.projectinfo{
+.projectoverview-proj{
     background-color: #949494;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.center{
+.projectimagebox-proj{
     margin: 4em auto ;
     width: 70%;
     display: flex;
@@ -97,11 +97,11 @@
     margin-bottom: 5em;
 }
 
-.projectimg{
+.projectimage-proj{
     width: 90%;
 }
 
-.projsections{
+.mainsection-proj{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,21 +109,21 @@
 
 }
 
-.projdivsection{
+.divsection-proj{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start ;
 }
 
-.projsubheading{
+.overview-proj{
     font-size: 2.5rem;
     color: black;
     font-weight: 600;
     margin-bottom: 1em;
 }
 
-.projinfo1{
+.info1-proj{
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 1.5px;
@@ -132,7 +132,7 @@
     margin-bottom: 1.5em;
 }
 
-.projinfo{
+.info2-proj{
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 1.5px;
@@ -141,16 +141,16 @@
     margin-bottom: 3.5em;
 }
 
-.projinfo span{
+.info2-proj span{
     color:black;
 }
 
-.skills{
+.skills-proj{
     display: flex;
     flex-wrap: wrap;
 }
 
-.singleskill{
+.singleskill-proj{
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
@@ -162,7 +162,7 @@
     transition: transform 0.3s ease-in-out; 
 }
 
-.singleskill:hover{
+.singleskill-proj:hover{
     background: #7843e9;
     color: black;
     transform: translateY(-5px);
@@ -176,16 +176,16 @@
         width: 95%;
     }
 
-    .homesection{
+    .heading-proj{
         height: 89vh;
         font-size: 1.8rem;
     }
 
-    .myinfo{
+    .projectoverview-proj{
         top: 50%;
     }
 
-    .myname{
+    .projprojectname-proj{
         font-size: 4.3rem;
         font-weight: 700;
     }
