@@ -11,7 +11,7 @@ const Project1 = (props) => {
     return (
         <div>
             <section className='heading-proj' id='home'>
-                <div className='projectoverview-proj container'>
+                <div className='projectinfo-proj container'>
                     <h1 className='projectname-proj'>PROJECT1</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam placeat neque officia qui laboriosam iure corporis consequuntur deserunt delectus.</p>
                     <a className='button button1' href="#" target='_blank'>PROJECT LINK</a>

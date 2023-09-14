@@ -13,7 +13,7 @@
 }
 
 
-.projectoverview-proj{
+.projectinfo-proj{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@
 }
 
 
-.rojectlinkbutton-proj{
+.projectlinkbutton-proj{
     padding:.6em .6em;
     color: black;
     border-radius: 5px;
@@ -61,7 +61,7 @@
     font-weight: 500;
 }
 
-.rojectlinkbutton-proj:hover{
+.projectlinkbutton-proj:hover{
     transform: translateY(-5px);
 }
 

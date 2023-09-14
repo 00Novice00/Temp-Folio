@@ -125,7 +125,7 @@ const HomePage = () => {
                             <hr className='hrline' />
                         </div>
                         <div className='mainsection-ps'>
-                            <div classNahp-projectheading2me='subsection-ps devicepadding'>
+                            <div className='subsection-ps devicepadding'>
                                 <img className='projectimg-ps' src={Project01} alt="Project1" />
                             </div>
                             <div className='subsection-ps'>
@@ -137,7 +137,7 @@ const HomePage = () => {
                         </div>
                         <div className='mainsection-ps'>
                             <div className='subsection-ps devicepadding'>
-                                <img className='projectimg-ps' src={Project02} alt="Project1" />
+                                <img className='projectimg-ps' src={Project02} alt="Project2" />
                             </div>
                             <div className='subsection-ps'>
                                 <h1 className='heading-ps'>Project02</h1>
